@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-28 08:09:00 PM"/>
+        <attribute name="created" value="dXNlcjtERVNLVE9QLVFQTThCNTQ7MjAyMy0wOC0yODswODowMzo1NSBQTTsyNzg1"/>
+        <attribute name="edited" value="dXNlcjtERVNLVE9QLVFQTThCNTQ7MjAyMy0wOC0yODswODowOTowMCBQTTsxOzI4ODk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C, Y" type="Integer" array="False" size=""/>
+            <declare name="S" type="Integer" array="False" size=""/>
+            <declare name="Add" type="Integer" array="False" size=""/>
+            <input variable="A"/>
+            <input variable="B"/>
+            <input variable="C"/>
+            <input variable="Y"/>
+            <assign variable="Add" expression="A+B+C"/>
+            <assign variable="S" expression="Add/Y"/>
+            <output expression="S" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

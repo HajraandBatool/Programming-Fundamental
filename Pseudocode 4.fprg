@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-28 09:00:20 PM"/>
+        <attribute name="created" value="dXNlcjtERVNLVE9QLVFQTThCNTQ7MjAyMy0wOC0yODswODo0OTowMyBQTTsyNzg4"/>
+        <attribute name="edited" value="dXNlcjtERVNLVE9QLVFQTThCNTQ7MjAyMy0wOC0yODswOTowMDoyMCBQTTsxOzI4ODM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, r, M, V" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <assign variable="r" expression="a*a*a"/>
+            <assign variable="M" expression="r*Pi"/>
+            <assign variable="V" expression="M*4/3"/>
+            <output expression="V" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

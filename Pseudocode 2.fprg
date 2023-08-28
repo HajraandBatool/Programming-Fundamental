@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-28 08:30:52 PM"/>
+        <attribute name="created" value="dXNlcjtERVNLVE9QLVFQTThCNTQ7MjAyMy0wOC0yODswODoyNzo1NiBQTTsyNzky"/>
+        <attribute name="edited" value="dXNlcjtERVNLVE9QLVFQTThCNTQ7MjAyMy0wOC0yODswODozMDo1MiBQTTsxOzI4OTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="C, M, D, F" type="Integer" array="False" size=""/>
+            <input variable="C"/>
+            <assign variable="M" expression="C*9"/>
+            <assign variable="D" expression="M/5"/>
+            <assign variable="F" expression="D+32"/>
+            <output expression="F" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

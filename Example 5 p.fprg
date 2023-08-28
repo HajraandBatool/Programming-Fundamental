@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-28 07:59:01 PM"/>
+        <attribute name="created" value="dXNlcjtERVNLVE9QLVFQTThCNTQ7MjAyMy0wOC0yODswNzo1Njo0NiBQTTsyNzky"/>
+        <attribute name="edited" value="dXNlcjtERVNLVE9QLVFQTThCNTQ7MjAyMy0wOC0yODswNzo1OTowMSBQTTsxOzI4OTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="hours, rate" type="Integer" array="False" size=""/>
+            <declare name="Pay" type="Integer" array="False" size=""/>
+            <input variable="hours"/>
+            <input variable="rate"/>
+            <assign variable="Pay" expression="hours*rate"/>
+            <output expression="Pay" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
